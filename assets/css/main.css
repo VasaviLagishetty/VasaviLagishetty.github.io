@@ -228,11 +228,11 @@ template {
 		top: -10px
 	}
 }
-@font-face{font-family:'FontAwesome';src:url(../fonts/fontawesome-webfont.eot?v=4.7.0);src:url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
-url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
-url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
-url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+@font-face{font-family:'FontAwesome';src:url(../fonts/fontawesome-webfont.eot?v=5.2.0);src:url(../fonts/fontawesome-webfont.eot?#iefix&v=5.2.0) format("embedded-opentype"),
+url(../fonts/fontawesome-webfont.woff2?v=5.2.0) format("woff2"),
+url(../fonts/fontawesome-webfont.woff?v=5.2.0) format("woff"),
+url(../fonts/fontawesome-webfont.ttf?v=5.2.0) format("truetype"),
+url(../fonts/fontawesome-webfont.svg?v=5.2.0#fontawesomeregular) format("svg");
 font-weight:400;
 font-style:normal
 }
@@ -833,6 +833,11 @@ font-style:normal
 .fa-github:before {
 	content: "\f09b"
 }
+
+.fa-hackerrank:before{
+    content:"\f5f7"
+}
+
 .fa-unlock:before {
 	content: "\f09c"
 }
@@ -3795,7 +3800,7 @@ sup {
 	display:block;
 	line-height:1;
 	color:#fff;
-	margin-top:20px
+	margin-top:30px
 }
 @media only screen and (min-width: 550px) {
 	.header .site-description {
@@ -3808,8 +3813,11 @@ sup {
 .header-links .link {
 	color:#fff;
 	text-decoration:none;
-	font-size:15px;
-	margin:10px
+    font-size:15px;
+    margin-left: 0px;
+    margin-top:10px;
+    margin-right: 30px;
+    
 }
 @media only screen and (min-width: 550px) {
 	.header-links .link {
