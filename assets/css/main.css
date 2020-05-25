@@ -3928,15 +3928,19 @@ sup {
 	max-width:960px;
 	margin:0 auto
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (max-width: 550px) {
     .user-details {
         text-align:center;
         margin:5px auto
     }
-	#projects {
-		width:80%
-	}
 }
+
+@media only screen and (min-width: 550px) {
+    #projects {
+        width:80%
+    }
+}
+
 .user-projects {
 	margin:20px auto
 }
