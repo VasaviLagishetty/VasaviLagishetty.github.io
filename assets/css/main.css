@@ -3838,8 +3838,8 @@ sup {
     height:20px;
     margin-top: 0px;
     margin-bottom: 15px;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
 	transition:all .7s;
 	width:20px;
 	font-size:30px;
@@ -3929,6 +3929,10 @@ sup {
 	margin:0 auto
 }
 @media only screen and (min-width: 550px) {
+    .user-details {
+        text-align:center;
+        margin:5px auto
+    }
 	#projects {
 		width:80%
 	}
