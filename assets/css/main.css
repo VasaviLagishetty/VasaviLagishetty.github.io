@@ -3808,18 +3808,20 @@ sup {
 	}
 }
 .header-links {
-    margin-right: 38px;
-    margin-top: 10px;
+    margin: 10px;
 }
 .header-links .link {
 	color:#fff;
 	text-decoration:none;
     font-size:20px;
-    margin : 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 @media only screen and (min-width: 550px) {
 	.header-links .link {
-		font-size:20px
+		font-size: 20px;
 	}
 }
 .header-icons {
@@ -3834,8 +3836,10 @@ sup {
 }
 .header-icons #icon {
     height:20px;
-    margin-right: 35px;
+    margin-top: 0px;
     margin-bottom: 15px;
+    margin-left: 18px;
+    margin-right: 18px;
 	transition:all .7s;
 	width:20px;
 	font-size:30px;
@@ -3848,7 +3852,7 @@ sup {
 	.header-icons #icon {
 		width:30px;
 		height:30px;
-        font-size:35px; 
+        font-size:38px; 
 	}
 }
 .down {
@@ -3913,7 +3917,7 @@ sup {
 	}
 }
 .user-details {
-	text-align:center;
+	text-align:left;
 	margin:5px auto
 }
 #projects {
