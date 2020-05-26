@@ -3,6 +3,7 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
    <style>
      th{
+      color: #00ffcd;
        padding-right: 200px;
        vertical-align: top;
        font-size: 30px;
@@ -12,8 +13,12 @@
         padding-bottom:10px;
      }
      b{
+      
        font-size: 22px;
        margin-bottom: 20px;
+     }
+     h1,h2,h3{
+       color: #00ffcd;
      }
      @media only screen and (max-width: 550px) {
       th{
@@ -32,10 +37,11 @@
      }
    </style>
  </head>
+ <body style="background-color:black;color: white">
 <div class="user-details">
   <h1> About Me </h1>
   <p> {{site.user_description}} </p>
-</div>
+</div><br><br>
 <table>
   <tr>
     <th rowspan="1">Experience</th>
@@ -54,24 +60,26 @@
     <td><b>School</b><br><i>Srichaitanya, S.S.C, 9.5 • March 2014</i></td>
   </tr>
 </table>
-<table>
+<div class="user-details">
+  <h2> Skills </h2>
+</div>
 <div class="user">
   <div class="tech" >
       <h3>Programming</h3>
       <i class="devicon-python-plain-wordmark colored"></i>
       <i class="devicon-java-plain-wordmark colored"></i>
       <i class="devicon-c-line-wordmark colored"></i>
-<pre>‣ Python, Java, C 
-‣ DataStructures, Algos
-‣ Problem Solving</pre>
+<pre>Python, Java, C,
+DataStructures, Algos,
+Problem Solving</pre>
   </div>
   <div class="tech">
       <h3>Web Development</h3>
       <i class="devicon-html5-plain-wordmark colored"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
       <i class="devicon-javascript-plain colored"></i>
-<pre>‣ Flask(Basics), Bottle
-‣ HTML, CSS, JS</pre>
+<pre>Flask(Basics), Bottle,
+HTML, CSS, JS</pre>
   </div>
   <div class="tech">
       <h3>Database</h3>
@@ -85,26 +93,25 @@
       <h3>Familiar with</h3>
       <i class="devicon-android-plain-wordmark colored"></i>
       <i class="devicon-react-original-wordmark colored"></i>
-<pre>‣ Power Apps(LowCode) 
-‣ ML(Basics)
-‣ ReactJS
-‣ Android
-‣ Swift(IoS)</pre>
+<pre>Power Apps(LowCode), 
+ML(Basics),
+ReactJS,
+Android,
+Swift(IoS)</pre>
   </div>
   <div class="tech">
       <h3>Non-Tech Skills</h3>
-      <i class="fas fa-code"></i>
       <i class="fas fa-chess"></i>
-      <i class="far fa-abacus"></i>
-<pre>‣ Problem Solving
-‣ Miniature
-‣ Abacus
-‣ Chess</pre>
+      <i class="fas fa-abacus"></i>
+<pre>Miniature,
+Abacus,
+Chess</pre>
   </div>
 <div class="tech">
     <h3>Volunteering</h3>
-    <i class="fas fa-hands-helping"></i>
-<pre>‣ SWECHA
-‣ MAD</pre>
+    <i style="color: rgb(71, 71, 189);" class="fas fa-hands-helping"></i>
+<pre>SWECHA
+MAD</pre>
 </div>
 </div>
+</body>

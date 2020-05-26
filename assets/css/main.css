@@ -3609,7 +3609,7 @@ font-style:normal
 }
 .devicon-python-plain-wordmark.colored,
 .devicon-python-plain.colored {
-	color:#ffd845
+	color:#1a8f1a
 }
 .devicon-rails-plain-wordmark.colored,
 .devicon-rails-plain.colored {
@@ -3925,7 +3925,7 @@ sup {
 
 
 .user-details {
-	text-align:left;
+	text-align:center;
 	margin:5px auto
 }
 #projects {
