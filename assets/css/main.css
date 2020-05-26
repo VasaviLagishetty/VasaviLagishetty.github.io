@@ -3896,30 +3896,37 @@ sup {
 		width:80%
 	}
 }
-.tech{
-	margin:10px
-}
 
-.user{
+.tech {
+	left:50%;
+	margin-left: 100px;
+}
+.user {
 	text-align:center;
 	font-size:60px;
 	display:flex;
 	flex-direction:row;
-	flex-wrap:nowrap;
+	flex-wrap:wrap;
 	justify-content:space-between
 }
-
-.user pre{
-	text-align: left;
+.user pre {
 	font-size:16px
 }
 
-@media only screen and (max-width:550px){
-	.user{
-		flex-wrap:wrap;
+@media only screen and (min-width: 550px) {
+	.tech {
+		margin:10px
+	}
+	.user {
+		flex-wrap:nowrap;
 		font-size:75px
 	}
+	.user pre{
+		text-align: left;
+	}
+	
 }
+
 
 .user-details {
 	text-align:left;
