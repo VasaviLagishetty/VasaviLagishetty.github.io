@@ -3896,26 +3896,31 @@ sup {
 		width:80%
 	}
 }
-.tech {
+.tech{
 	margin:10px
 }
-.user {
+
+.user{
 	text-align:center;
 	font-size:60px;
 	display:flex;
 	flex-direction:row;
-	flex-wrap:wrap;
+	flex-wrap:nowrap;
 	justify-content:space-between
 }
-.user p {
+
+.user pre{
+	text-align: left;
 	font-size:16px
 }
-@media only screen and (min-width: 550px) {
-	.user {
+
+@media only screen and (min-width:550px){
+	.user{
 		flex-wrap:nowrap;
 		font-size:75px
 	}
 }
+
 .user-details {
 	text-align:left;
 	margin:5px auto
