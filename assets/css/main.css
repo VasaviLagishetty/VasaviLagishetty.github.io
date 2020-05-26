@@ -3898,8 +3898,7 @@ sup {
 }
 
 .tech {
-	left:50%;
-	margin-left:-132px;
+	margin-left: 25%;
 }
 .user {
 	text-align:center;
