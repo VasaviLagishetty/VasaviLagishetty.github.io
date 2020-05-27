@@ -3948,9 +3948,8 @@ sup {
 	
 }
 
-
 .user-details {
-	text-align:center;
+	text-align:justify;
 	margin:5px auto
 }
 #projects {
@@ -3963,7 +3962,6 @@ sup {
 }
 @media only screen and (max-width: 550px) {
     .user-details {
-        text-align:center;
         margin:5px auto
     }
 }
