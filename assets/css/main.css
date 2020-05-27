@@ -80,8 +80,8 @@ audio,
 canvas,
 video {
 	display: inline-block;
-	background-color: rgb(26, 24, 24);
-	background-image: url("assets/Me/vasavi.png");
+	background-color: rgb(10, 10, 10);
+	
 }
 audio:not([controls]) {
 	display: none;
@@ -3719,6 +3719,8 @@ nav,
 section {
 	display:block
 }
+
+
 h1,
 h2,
 h3,
@@ -3835,6 +3837,7 @@ sup {
 	justify-content:center;
 	text-align:center
 }
+
 .down,
 .header-icons #icon {
 	color:#fff;
@@ -3854,6 +3857,22 @@ sup {
 .header-icons #icon:hover {
 	color:#00ffcd;
 }
+
+.header-icons #icon1 {
+    height:15px;
+    margin-top: 35px;
+    margin-bottom: 38px;
+    margin-left: 25px;
+    margin-right: 25px;
+	transition:all .7s;
+	width:15px;
+	font-size:30px;
+}
+.header-icons #icon1:active,
+.header-icons #icon1:hover {
+	color:#00ffcd;
+}
+
 @media only screen and (min-width: 550px) {
 	.header-icons #icon {
 		width:30px;
@@ -3912,7 +3931,7 @@ sup {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:space-between
+	justify-content:space-between;
 }
 .user pre {
 	font-size:16px
@@ -4024,7 +4043,7 @@ body {
 	border-color .3s ease-in
 }
 .footer {
-	background:#1a222c;
+	background: rgb(10, 10, 10);
 	padding:10px 0;
 	margin-top:100px;
 	text-align:center;
