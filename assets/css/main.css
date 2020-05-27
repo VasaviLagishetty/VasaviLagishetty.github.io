@@ -80,7 +80,8 @@ audio,
 canvas,
 video {
 	display: inline-block;
-	background-color: #000;
+	background-color: rgb(26, 24, 24);
+	background-image: url("assets/Me/vasavi.png");
 }
 audio:not([controls]) {
 	display: none;
@@ -3820,6 +3821,10 @@ sup {
     margin-right: 10px;
     margin-bottom: 15px;
 }
+.header-links .link:active,
+.header-links .link:hover{
+	color: #00ffcd;
+}
 @media only screen and (min-width: 550px) {
 	.header-links .link {
 		font-size: 20px;
@@ -3847,7 +3852,7 @@ sup {
 }
 .header-icons #icon:active,
 .header-icons #icon:hover {
-	color:#000;
+	color:#00ffcd;
 }
 @media only screen and (min-width: 550px) {
 	.header-icons #icon {
