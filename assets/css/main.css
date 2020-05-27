@@ -3611,7 +3611,7 @@ font-style:normal
 }
 .devicon-python-plain-wordmark.colored,
 .devicon-python-plain.colored {
-	color:#1a8f1a
+	color:#f7cf1c
 }
 .devicon-rails-plain-wordmark.colored,
 .devicon-rails-plain.colored {
@@ -3984,10 +3984,6 @@ sup {
 body {
 	margin:0
 }
-.user-projects li {
-	color:#1a222c;
-	font-size:1.1rem
-}
 .user-projects p {
 	margin-right:5px
 }
@@ -4019,26 +4015,22 @@ body {
 	display:inline-block;
 	margin:10px 0;
 	padding:5px;
-	color:#1a222c;
-	background-color:transparent;
-	border:1px solid #1a222c;
-	border-radius:10px;
+	color:#000;
+	background-color: #00ffcd;
+	border-radius: 8px;
 	text-align:center;
 	outline:0;
 	text-decoration:none;
 	cursor:pointer;
 	transition:color .3s ease-out,
 	background-color .3s ease-out,
-	border-color .3s ease-out
 }
 .project-link:active,
 .project-link:hover {
-	background-color:#54516a;
-	border-color:#54516a;
-	color:#fff;
+	background-color:#000;
+	color: #00ffcd;
 	transition:color .3s ease-in,
 	background-color .3s ease-in,
-	border-color .3s ease-in
 }
 .footer {
 	background: rgb(10, 10, 10);
