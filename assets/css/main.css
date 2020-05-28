@@ -3949,7 +3949,7 @@ sup {
 }
 
 .user-details {
-	text-align:justify;
+	text-align:center;
 	margin:5px auto
 }
 #projects {
@@ -3960,13 +3960,14 @@ sup {
 	max-width:960px;
 	margin:0 auto
 }
-@media only screen and (max-width: 550px) {
-    .user-details {
-        margin:5px auto
-    }
+@media only screen and (min-width: 550px) {
+    .user-details{
+		text-align: justify;
+	}
 }
 
 @media only screen and (min-width: 550px) {
+
     #projects {
         width:80%
     }
