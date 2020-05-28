@@ -3881,16 +3881,14 @@ sup {
 	}
 }
 .down {
-	position:absolute;
+	position: absolute;
 	bottom:25px;
-	width:100%;
-	margin:0 auto;
-	display:block;
+	left: 50%;
 	font-size:30px;
-	cursor:pointer
+	cursor:pointer;
 }
 .down .icon {
-	position:absolute;
+	position: absolute;
 	-webkit-transform-style:preserve-3d;
 	transform-style:preserve-3d;
 	top:50%;
@@ -3905,11 +3903,11 @@ sup {
 	-webkit-animation:pulse 1.3s infinite;
 	animation:pulse 1.3s infinite
 }
-.down .icon:active,
-.down .icon:hover,
+.down #icon:active,
+.down #icon:hover,
 .footer a:active,
 .footer a:hover {
-	color:#4b5664
+	color: #00ffcd;
 }
 #about {
 	width:90%;
@@ -4013,9 +4011,9 @@ body {
 	}
 }
 .project-link {
-	display:inline-block;
+	font-size: 18px;
 	margin:10px 0;
-	padding:5px;
+	padding:6px;
 	color:#000;
 	background-color: #00ffcd;
 	border-radius: 8px;
