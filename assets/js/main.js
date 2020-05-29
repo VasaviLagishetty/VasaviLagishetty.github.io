@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 30,
+                value: 50,
                 density: {
                     enable: !0,
                     value_area: 800
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             },
             opacity: {
-                value: .5,
+                value: .7,
                 random: !1,
                 anim: {
                     enable: !1,
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 random: !0,
                 anim: {
                     enable: !1,
-                    speed: 19.18081918081918,
+                    speed: 30.18081918081918,
                     size_min: .1,
                     sync: !1
                 }
