@@ -3,36 +3,7 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
    <style>
      th{
-      color: #00ffcd;
-       padding-right: 200px;
-       vertical-align: top;
-       font-size: 30px;
-     }
-     td{
-        font-size: 18px;
-        padding-bottom:10px;
-     }
-     b{
-       font-size: 22px;
-       margin-bottom: 25px;
-     }
-     h1,h2,h3{
        color: #00ffcd;
-     }
-     i{
-       margin-bottom: 35px;
-     }
-     .heading{
-       text-align: center;
-     }
-     .info{
-      display: none;
-     }
-     .tech1,.tech2 {
-	    margin: 0 auto;
-    }
-     @media only screen and (max-width: 550px) {
-      th{
        padding-right: 50px;
        vertical-align: top;
        font-size: 18px;
@@ -45,26 +16,53 @@
        font-size: 15px;
        margin-bottom: 15px;
      }
+     h1,h2,h3{
+       color: #00ffcd;
+     }
+     i{
+       margin-bottom: 35px;
+     }
+     .heading{
+       text-align: center;
+     }
+     #info{
+      text-align: justify;
+     }
+    p{
+      text-align: justify;
+    }
+     @media only screen and (max-width: 550px) {
+     #info{
+       display: none;
+     }
     }
     @media only screen and (min-width: 550px) {
-      
+      th{
+        padding-right: 200px;
+        font-size: 30px;
+      }
+      td{
+        font-size: 18px;
+        padding-bottom:10px;
+      }
+      b{
+       font-size: 22px;
+       margin-bottom: 25px;
+     }
       .tech1{
         margin-left: 25%;
       }
       .tech2{
         margin-right: 25%;
       }
-      .info{
-        display: inline;
-      }
     }
    </style>
  </head>
  <body style="background-color:black;color: white">
 <div class="user-details">
-  <h1 class="heading"> About Me </h1>
+  <h1> About Me </h1>
   <p>Hello! I'm Lagishetty Vasavi, Currently, I'm pursuing my final year of Bachelor of Technology, Computer Science from Vardhaman College of Engineering. I'm working as Trainee Software Engineer at <span style="color: #00ffcd;">ValueLabs</span> (www.valuelabs.com), Hyderabad. Working on various technologies like Low Code Platforms, ReactJS, and also on Swift Xcode(IoS). I felt Enthusiastic in open-source contributions, problem-solving, algorithms, love to explore and build real-time applications.</p>
-  <p class="info">Apart from my education and experience I also work as a volunteer in 2 organizations :<br>Academic Support Volunteer(AVS) at <span style="color: #00ffcd;">Make A Difference</span>(MAD) Non-profitable organization - Providing educational support to orphan children from 6th to 10th class on Sundays. & Volunteer and Developer at <span style="color: #00ffcd;">Swecha</span> FSMI (TS & AP) - Delivered sessions to students through free workshops on emerging technologies to enhance their career opportunities.</p>
+  <p id="info">Apart from my education and experience I also work as a volunteer in 2 organizations :<br>Academic Support Volunteer(AVS) at <span style="color: #00ffcd;">Make A Difference</span>(MAD) Non-profitable organization - Providing educational support to orphan children from 6th to 10th class on Sundays. & Volunteer and Developer at <span style="color: #00ffcd;">Swecha</span> FSMI (TS & AP) - Delivered sessions to students through free workshops on emerging technologies to enhance their career opportunities.</p>
   </div><br><br>
 <table>
   <tr>
@@ -85,10 +83,10 @@
   </tr>
 </table>
 <div class="user-details">
-  <h2 class="heading"> Skills </h2>
+  <h2> Skills </h2>
 </div>
 <div class="user">
-  <div class="tech" >
+  <div class="tech">
       <h3>Programming</h3>
       <i class="devicon-python-plain-wordmark colored"></i>
       <i class="devicon-java-plain-wordmark colored"></i>
