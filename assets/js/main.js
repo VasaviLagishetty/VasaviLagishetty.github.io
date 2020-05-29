@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 50,
+                value: 100,
                 density: {
                     enable: !0,
                     value_area: 800
