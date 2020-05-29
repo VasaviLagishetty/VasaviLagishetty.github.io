@@ -3994,7 +3994,7 @@ body {
 		float: right;
 		width: 48%
 	}
-	.images-right img {
+	.images-right {
 		float: right
 	}
 	.images-left {
