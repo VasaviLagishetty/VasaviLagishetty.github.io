@@ -4,15 +4,40 @@
     #p1{
       font-size: medium;
     }
+    #icon-up{
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      border-radius: 100%;
+      background-color: white;
+      color: black;
+      top: -30px;
+      line-height: 35px;
+      font-size: 18px;
+      left: 46.5%;
+    }
+
+    #icon-up:hover{
+      background-color: black;
+      color: #00ffcd;
+    }
     @media only screen and (min-width: 550px) {
     #p1{
       font-size: larger;
+    }
+    #icon-up{
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      line-height: 50px;
+      top: -40px;
+      left: 48.5%;
     }
     }
   </style>
 </head>
 <footer class="footer">
-<a href="#" data-scroll><i id = "icon" class="fas fa-chevron-up" style="margin-top: 15px;" aria-hidden="true"></i></a>
+<a href="#" data-scroll><i id = "icon-up" class="fas fa-chevron-up" style="margin-top: 15px;" aria-hidden="true"></i></a>
   <p id = "p1">made with jekyll❤️ and hosted on GitHub</p>
     <div class="header-icons">
         <a aria-label="My Github" target="_blank" href="https://github.com/VasaviLagishetty"><i id = "icon1" class="fab fa-github" ></i></a>
