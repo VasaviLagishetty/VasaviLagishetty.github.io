@@ -27,23 +27,32 @@ Education:
     percentage: 9.5
     completion: March 2014
 
-Project:
+Projects:
   - img: /assets/img/classify_binder.jpg
     source_url: https://github.com/VasaviLagishetty/Classify-Binder/
-    title:  
-    description:
-  - img:
-    source_url:
-    title:
-    description:
-  - img:
-    source_url:
-    title:
-    description:
-  - img:
-    source_url:
-    title:
-    description:
+    title: The Classify Binder
+    subtitle: File Classification
+    description: An application which deals with local file system directories and folders and classifies them into respective folders which makes user task of accessing files easy in that particular directory.
+  - img: /assets/img/movie_search.png
+    source_url: https://github.com/VasaviLagishetty/MovieSearch
+    title: Movie Search
+    subtitle: Keyword based search
+    description: Developing a React JS application that fetches the data from OMDB API and displays on a web page according to the user search keyword and category.
+  - img: /assets/img/covid19.png
+    source_url: https://github.com/VasaviLagishetty/COVID19
+    title: COVID19 Analysis
+    subtitle: Visualizations
+    description: A graph plot that describes overall covid19 cases, geographical Visualizations and also top 10 countries with respective confirmed, deaths, recovered cases.
+  - img: /assets/img/hcr.png
+    source_url: https://code.swecha.org/team2/charrecognition
+    title: HCR
+    subtitle: Handwritten character recognition
+    description: Built a Machine Learning model, Web Application in python to recognize the handwritten digits from images. For future enhancement we will focus on alphabets, numeric data and telugu characters.
+  - img: /assets/img/pwa.png
+    source_url: https://github.com/VasaviLagishetty/Progressive-Web-App
+    title: PWA
+    subtitle: Progressive Web Apps
+    description: A technical paper presentation on Progressive Web Apps. PWAs are web applications that are regular web pages or websites, but can appear to the user like traditional applications or native mobile applications.
   
 
 # Google-analytics
