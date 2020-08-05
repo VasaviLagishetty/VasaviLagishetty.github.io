@@ -27,6 +27,24 @@ Education:
     percentage: 9.5
     completion: March 2014
 
+Project:
+  - img: /assets/img/classify_binder.jpg
+    source_url: https://github.com/VasaviLagishetty/Classify-Binder/
+    title:  
+    description:
+  - img:
+    source_url:
+    title:
+    description:
+  - img:
+    source_url:
+    title:
+    description:
+  - img:
+    source_url:
+    title:
+    description:
+  
 
 # Google-analytics
 google-analytics:
