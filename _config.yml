@@ -13,6 +13,21 @@ github_username:  VasaviLagishetty
 hackerrank_username: vasavi_2910
 linkedin_username:  vasavi2910
 
+Education:
+  - course: Bachelor's Degree, Computer science
+    college: Vardhaman college of Engg
+    percentage: 9.33*
+    completion: June 2020
+  - course: Intermediate, M.P.C
+    college: Srichaitanya Junior College
+    percentage: 95.4% 
+    completion: March 2016
+  - course: School, S.S.C
+    college: Srichaitanya
+    percentage: 9.5
+    completion: March 2014
+
+
 # Google-analytics
 google-analytics:
   id: ""
