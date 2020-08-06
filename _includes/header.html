@@ -7,16 +7,7 @@
         <span class="site-title">{{site.username}}</span>
         <span class="site-description"><span style="color: #00ffcd;">Software Engineer</span> at ValueLabs, Hyderabad</span>
       </h1>
-      <div class="header-icons">
-        {% for link in site.social_links%}
-
-          {% if link.faicon != "chart-line"%}
-            <a aria-label="{{link.label}}" target="_blank" href="{{link.url}}"><i id = "icon" class="fab fa-{{link.faicon}}" ></i></a>
-          {% else %}
-          <a aria-label="{{link.label}}" target="_blank" href="{{link.url}}"><i id = "icon" class="fas fa-{{link.faicon}}" ></i></a>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% include social_links.html %}
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
