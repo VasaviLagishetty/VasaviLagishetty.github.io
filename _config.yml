@@ -54,6 +54,23 @@ Projects:
     subtitle: Progressive Web Apps
     description: A technical paper presentation on Progressive Web Apps. PWAs are web applications that are regular web pages or websites, but can appear to the user like traditional applications or native mobile applications.
   
+social_links:
+  - label: My Github
+    faicon: github
+    link: https://github.com/VasaviLagishetty
+  - label: My HackerRank
+    faicon: hackerrank
+    link: https://www.hackerrank.com/vasavi_2910
+  - label: My Linkedin
+    faicon: linkedin
+    link: https://www.linkedin.com/in/vasavi2910
+  - label: My Sourcer
+    faicon: chart-line
+    link: https://sourcerer.io/vasavilagishetty
+  - label: My facebook
+    faicon: facebook
+    link: https://www.facebook.com/vasavi2910
+
 
 # Google-analytics
 google-analytics:
