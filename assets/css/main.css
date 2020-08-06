@@ -4046,6 +4046,16 @@ body {
 	color:#fff
 }
 
+.footer .header-icons #icon{
+
+	font-size: 18px;
+	width: 15px;
+	height: 15px;
+	margin-bottom: 20px;
+	margin-left: 0;
+
+}
+
 @media only screen and (min-width: 550px){
 
 	.footer .header-icons #icon{
