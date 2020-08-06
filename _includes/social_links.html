@@ -1,0 +1,10 @@
+<div class="header-icons">
+    {% for link in site.social_links%}
+
+      {% if link.faicon != "chart-line"%}
+        <a aria-label="{{link.label}}" target="_blank" href="{{link.url}}"><i id = "icon" class="fab fa-{{link.faicon}}" ></i></a>
+      {% else %}
+      <a aria-label="{{link.label}}" target="_blank" href="{{link.url}}"><i id = "icon" class="fas fa-{{link.faicon}}" ></i></a>
+      {% endif %}
+    {% endfor %}
+  </div>
