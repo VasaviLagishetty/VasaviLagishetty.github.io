@@ -3846,7 +3846,7 @@ sup {
 .header-icons #icon {
     height:20px;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
 	transition:all .7s;
@@ -4044,4 +4044,17 @@ body {
 	text-decoration:none;
 	margin:0;
 	color:#fff
+}
+
+@media only screen and (min-width: 550px){
+
+	.footer .header-icons #icon{
+
+		font-size: 30px;
+		width: 25px;
+		height: 25px;
+		margin-bottom: 25px;
+
+	}
+
 }
