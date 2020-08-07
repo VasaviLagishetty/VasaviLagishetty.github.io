@@ -70,6 +70,12 @@ social_links:
   - label: My facebook
     faicon: facebook
     link: https://www.facebook.com/vasavi2910
+    
+Nav_bar:
+  - About
+  - Projects
+  - Resume
+  - Contact
 
 
 # Google-analytics
