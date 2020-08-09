@@ -3812,7 +3812,7 @@ sup {
 	}
 }
 .header-links {
-    margin: 10px;
+    margin: 13px;
 }
 .header-links .link {
 	color:#fff;
@@ -4052,7 +4052,7 @@ body {
 	width: 15px;
 	height: 15px;
 	margin-bottom: 20px;
-	margin-left: 0;
+	margin-left: 5px;
 
 }
 
