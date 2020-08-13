@@ -72,13 +72,14 @@ social_links:
     link: https://www.facebook.com/vasavi2910
     
 Nav_bar:
-  - section: 
-    url:
-  - section:
-    url:
-  - Projects
-  - Resume
-  - Contact
+  - section: About
+    url: /about
+  - section: Projects
+    url: /projects
+  - section: Resume
+    url: /about
+  - section: Contact
+    url: /contact
 
 
 # Google-analytics
