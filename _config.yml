@@ -72,7 +72,10 @@ social_links:
     link: https://www.facebook.com/vasavi2910
     
 Nav_bar:
-  - About
+  - section: 
+    url:
+  - section:
+    url:
   - Projects
   - Resume
   - Contact
