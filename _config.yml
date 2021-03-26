@@ -57,19 +57,19 @@ Projects:
 social_links:
   - label: My Github
     faicon: github
-    link: https://github.com/VasaviLagishetty
+    url: https://github.com/VasaviLagishetty
   - label: My HackerRank
     faicon: hackerrank
-    link: https://www.hackerrank.com/vasavi_2910
+    url: https://www.hackerrank.com/vasavi_2910
   - label: My Linkedin
     faicon: linkedin
-    link: https://www.linkedin.com/in/vasavi2910
+    url: https://www.linkedin.com/in/vasavi2910
   - label: My Sourcer
     faicon: chart-line
-    link: https://sourcerer.io/vasavilagishetty
+    url: https://sourcerer.io/vasavilagishetty
   - label: My facebook
     faicon: facebook
-    link: https://www.facebook.com/vasavi2910
+    url: https://www.facebook.com/vasavi2910
     
 Nav_bar:
   - section: About
