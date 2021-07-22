@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             },
             color: {
-                value: "#00ffcd"
+                value: "#FF9900"
             },
             shape: {
                 type: "polygon",
                 stroke: {
                     width: 0,
-                    color: "#00ffcd"
+                    color: "#FF9900"
                 },
                 polygon: {
                     nb_sides: 5
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
             line_linked: {
                 enable: !0,
                 distance: 150,
-                color: "#00ffcd",
+                color: "#FF9900",
                 opacity: .4,
                 width: 1
             },
