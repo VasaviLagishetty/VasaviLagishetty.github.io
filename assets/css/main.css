@@ -3825,7 +3825,7 @@ sup {
 }
 .header-links .link:active,
 .header-links .link:hover{
-	color: #FF9900;
+	color: #ffa51f;
 }
 @media only screen and (min-width: 550px) {
 	.header-links .link {
@@ -3855,7 +3855,7 @@ sup {
 }
 .header-icons #icon:active,
 .header-icons #icon:hover {
-	color: #FF9900;
+	color: #ffa51f;
 }
 
 .header-icons #icon1 {
@@ -3870,7 +3870,7 @@ sup {
 }
 .header-icons #icon1:active,
 .header-icons #icon1:hover {
-	color: #FF9900;
+	color: #ffa51f;
 }
 
 @media only screen and (min-width: 550px) {
@@ -3907,7 +3907,7 @@ sup {
 .down #icon:hover,
 .footer a:active,
 .footer a:hover {
-	color: #FF9900;
+	color: #ffa51f;
 }
 #about {
 	width:90%;
@@ -4010,7 +4010,7 @@ body {
 	margin:10px 0;
 	padding:6px;
 	color:#000;
-	background-color: #FF9900;
+	background-color: #ffa51f;
 	border-radius: 8px;
 	text-align:center;
 	outline:0;
@@ -4022,7 +4022,7 @@ body {
 .project-link:active,
 .project-link:hover {
 	background-color:#000;
-	color: #FF9900;
+	color: #ffa51f;
 	transition:color .3s ease-in,
 	background-color .3s ease-in,
 }
